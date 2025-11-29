@@ -19,6 +19,6 @@ def bubblesort(A):
             break
     return A
 
-print(bubblesort([5,3,100,4,7,1]))
+#print(bubblesort([5,3,100,4,7,1]))
 
 
