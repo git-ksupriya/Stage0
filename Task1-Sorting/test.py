@@ -6,7 +6,7 @@ def test_bubble():
     for i in a:
         b=BubbleSort.bubblesort(i)
         i.sort()
-        print(i,b,' timsort, bubblesort ')
+        print(i,b,'using timsort, bubblesort respectively')
         if i!=b:
             print("Error for: ",i)
             return False 
